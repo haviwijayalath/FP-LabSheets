@@ -24,6 +24,7 @@ val runtime: Int = 2*(2*8)+3*7
 
 
 object prac01 {
+    
     println(area(5))
     println(toF(35))
     println(volOfaSphere(5))
