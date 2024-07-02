@@ -1,4 +1,4 @@
-import scala.annotation.static
+
 object prac03 {
     // 1. Write a function in Scala that takes a string as input and returns the reverse of the string using a recursive approach.
 
