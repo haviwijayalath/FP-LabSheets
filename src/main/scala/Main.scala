@@ -1,6 +1,17 @@
+
 //main
 @main def main(): Unit = {
-  // Practical 01
+  // println("\nOUTPUT (q01):")
+  // prac03.q01
+  println("\nOUTPUT (q02):")
+  prac03.q02
+  // println("\nOUTPUT (q03):")
+  // println(prac03.q03.mean(31, 21))
+  // println("\nOUTPUT (q04):")
+  // prac03.q04
+}
+
+// Practical 01
   // prac01;
 
   //Practical 02
@@ -20,9 +31,3 @@
   val c: Int = prac02.q04.profit(20)
   println(s"Rs.10 = Rs.$a\nRs.15 = Rs.$b\nRs.20 = Rs.$c")
    */
-
-  // println("\nOUTPUT (q01):")
-  // prac03.q01
-  println("\nOUTPUT (q02):")
-  prac03.q02
-}
