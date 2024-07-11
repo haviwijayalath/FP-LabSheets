@@ -59,7 +59,7 @@ object prac03 {
     // 4.Write a function in Scala that takes a list of integers as input and returns the sum of all the even numbers in the list.
 
     object q04 {
-        val li: List[Int] = List(1, 2, 3, 4, 5)
+        val li: List[Int] = List(1, 2, 3, 4, 4)
 
         def sumOfEvens(l: List[Int], n: Int): Int = 
             if (n > 1) {
