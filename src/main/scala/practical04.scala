@@ -18,7 +18,7 @@ object prac04{
                         else i += 1
                     }
             
-        restockItem("a", 10)
+        restockItem("d", 10)
         displayInventory(item_name.length)
     }
 
