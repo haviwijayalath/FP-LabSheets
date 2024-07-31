@@ -1,33 +1,7 @@
-import prac05.q01.getProductList
-import prac05.q01.printProductList
-import prac05.q01.getTotalProducts
-import prac05.q02.displayBookList
-import prac05.q02.add
-import prac05.q02.Book
-import prac05.q02.del
-import prac05.q02.isBookExist
-import prac05.q02.search
-import prac05.q03.fib
-import prac05.q03.fibSeq
 
 //main
 @main def main(): Unit = {
-  println("\nOUTPUT (q01):")
-  val proList = getProductList(List())
-  printProductList(proList)
-  getTotalProducts(proList)
-
-  println("\nOUTPUT (q02):")
-  displayBookList()
-  add(Book("NewT", "NewA", "ISBN-new"))
-  displayBookList()
-  del("ISBN-123")
-  displayBookList()
-  isBookExist("ISBN-new")
-  search("NewT")
-
-  println("\nOUTPUT (q03):")
-  println(fibSeq(8))
+  
 }
 
   // prac01;
@@ -59,3 +33,32 @@ import prac05.q03.fibSeq
   // prac04.q02.patternMatching(-345)
   // println("\nOUTPUT (q03):")
   // prac04.q03
+
+  // import prac05.q01.getProductList
+  // import prac05.q01.printProductList
+  // import prac05.q01.getTotalProducts
+  // import prac05.q02.displayBookList
+  // import prac05.q02.add
+  // import prac05.q02.Book
+  // import prac05.q02.del
+  // import prac05.q02.isBookExist
+  // import prac05.q02.search
+  // import prac05.q03.fib
+  // import prac05.q03.fibSeq
+
+  // println("\nOUTPUT (q01):")
+  // val proList = getProductList(List())
+  // printProductList(proList)
+  // getTotalProducts(proList)
+
+  // println("\nOUTPUT (q02):")
+  // displayBookList()
+  // add(Book("NewT", "NewA", "ISBN-new"))
+  // displayBookList()
+  // del("ISBN-123")
+  // displayBookList()
+  // isBookExist("ISBN-new")
+  // search("NewT")
+
+  // println("\nOUTPUT (q03):")
+  // println(fibSeq(8))
