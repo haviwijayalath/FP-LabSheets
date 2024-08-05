@@ -1,7 +1,9 @@
 
 //main
 @main def main(): Unit = {
-  
+  prac07.q01
+  prac07.q02
+  prac07.q03
 }
 
   // prac01;
