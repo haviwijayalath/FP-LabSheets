@@ -1,9 +1,14 @@
+import prac06.q01.p102
 
 //main
 @main def main(): Unit = {
-  prac07.q01
-  prac07.q02
-  prac07.q03
+  // prac07.q01
+  // prac07.q02
+  // prac07.q03
+
+  prac06.q01;
+  prac06.q02;
+  p102
 }
 
   // prac01;
